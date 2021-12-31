@@ -60,35 +60,39 @@ var viewRemainTime = function(){
                 setInterval(()=>{
                     switch(this.x){
                         // Hiển thị chữ Happy
-                        case 0:
-                            this.elementTime = [22, 24, 18,  36,36, 36, 36, 36];
+                          case 0:
+                            this.elementTime = [17, 10, 18,  36,36, 36, 36, 36];
                             ++this.x;
                         break;
                         
                         // Hiển thị chữ New
                         case 1:
-                            this.elementTime = [13, 18, 14, 30, 36, 36, 36, 36];
+                            this.elementTime = [12, 17, 18, 36, 36, 36, 36, 36];
                             ++this.x;
                         break;
                         // Hiển thị chữ Year
                         case 2:
-                            this.elementTime = [29, 24, 29, 36, 36, 36, 36, 36];
+                            this.elementTime = [14, 22,  36, 36, 36, 36, 36];
                             ++this.x;
                         break;
                         case 3:
-                            this.elementTime = [23, 17, 10, 29, 36, 36, 36, 36];
+                            this.elementTime = [23, 10, 22, 36, 36, 36, 36, 36];
                             ++this.x;
                         break;
                          case 4:
-                            this.elementTime = [13, 14, 23, 36, 36, 36, 36, 36];
+                            this.elementTime = [22, 24, 18, 36, 36, 36, 36, 36];
                             ++this.x;
                         break;
                          case 5:
-                            this.elementTime = [31, 24, 18, 36, 36, 36, 36, 36];
+                            this.elementTime = [31, 30, 18, 36, 36, 36, 36, 36];
                             ++this.x;
                         break;
-                        case 6:
-                            this.elementTime = [14, 22,  36, 36, 36, 36];
+                         case 6:
+                            this.elementTime = [31, 14,  36, 36, 36, 36];
+                            ++this.x;
+                        break;
+                        case 7:
+                            this.elementTime = [17,10,17,10,  36, 36, 36, 36];
                          
                             this.x = 0;
                         break;
